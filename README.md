@@ -17,4 +17,8 @@ A password is considered **strong** if it:
 - Includes a special character (like `@`, `#`, `!`, etc.)
 - Avoids common patterns like `1234`, `password`, `qwerty`
 
+ If **all** of these conditions are satisfied, the password is classified as **Strong password**
+ If **some** conditions are met (e.g., length is fine but lacks special characters), it is marked as **Moderate password**
+ If the password fails most of these checks, it is classified as **Weak password**
+
 
